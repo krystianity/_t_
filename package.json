@@ -6,8 +6,11 @@
   },
   "private": true,
   "dependencies": {
-    "languagedetect": "^1.1.1",
-    "sentiment": "^2.1.0",
-    "twitter": "^1.7.0"
+    "languagedetect": "~1.1.1",
+    "sentiment": "~2.1.0",
+    "sequelize": "~3.27.0",
+    "sqlite3": "~3.1.8",
+    "twitter": "~1.7.0",
+    "uuid": "~3.0.1"
   }
 }
