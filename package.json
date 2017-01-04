@@ -1,0 +1,13 @@
+{
+  "name": "_t_",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "private": true,
+  "dependencies": {
+    "languagedetect": "^1.1.1",
+    "sentiment": "^2.1.0",
+    "twitter": "^1.7.0"
+  }
+}
