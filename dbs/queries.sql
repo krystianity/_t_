@@ -1,0 +1,1 @@
+SELECT topic,  SUM(score) AS score FROM tweets WHERE createdAt BETWEEN '2017-01-05 09:30:00.000 +00:00' AND '2017-01-05 18:00:00.000 +00:00' GROUP BY topic;

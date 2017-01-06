@@ -1,4 +1,4 @@
-const T = require("./lib/T.js");
+const App = require("./lib/App.js");
 const config = require("./config.json");
-const t = new T(config);
-t.run();
+const app = new App(config);
+app.run();

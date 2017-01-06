@@ -38,4 +38,4 @@ jspm_packages
 config.json
 logs
 /.idea
-/dbs/*.db
+/dbs/*.sqlite
