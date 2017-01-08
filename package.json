@@ -1,12 +1,24 @@
 {
   "name": "_t_",
-  "version": "0.0.4",
+  "version": "0.6.2",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node --expose-gc ./index.js",
+    "stream": "npm start stream",
+    "stream-all": "npm start stream-all",
+    "rate-value": "npm start rate-value",
+    "classify-value": "npm start classify-value",
+    "classify-value-all": "npm start classify-value-all",
+    "overview": "npm start overview",
+    "browse": "sqlitebrowser dbs/198774785.sqlite"
   },
   "private": true,
   "dependencies": {
+    "dclassify": "~1.1.2",
+    "emoji-strip": "~0.0.3",
     "languagedetect": "~1.1.1",
+    "murmurhash": "~0.0.2",
+    "natural": "~0.4.0",
+    "pidusage": "~1.1.0",
     "sentiment": "~2.1.0",
     "sequelize": "~3.27.0",
     "sqlite3": "~3.1.8",
